@@ -1,8 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-
-namespace FinalTask
+﻿namespace FinalTask
 {
+    /// <summary>
+    /// Interface IPerson.
+    /// </summary>
     public interface IPerson
     {
     }

@@ -1,12 +1,18 @@
-﻿using FinalTask.Data;
-using System;
-using System.Collections.Generic;
-
-namespace FinalTask
+﻿namespace FinalTask
 {
+    using System;
+    using FinalTask.Data;
+
+    /// <summary>
+    /// Our program.
+    /// </summary>
     public class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Our main entry point.
+        /// </summary>
+        /// <param name="args">Arguments to be passed to the application.</param>
+        private static void Main(string[] args)
         {
             MainProgram mainProgram = new MainProgram();
             mainProgram.WorkProgram();

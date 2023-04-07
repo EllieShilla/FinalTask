@@ -1,32 +1,43 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FinalTask.Data
+﻿namespace FinalTask.Data
 {
+    using System;
+    using System.Collections.Generic;
+
+    /// <summary>
+    /// Class MainProgram which was starting methods of classes FileReader and FileRecorder.
+    /// </summary>
     public class MainProgram
     {
-        FileReader fileReader;
-        FileRecorder fileRecorder;
+        private FileReader fileReader;
+        private FileRecorder fileRecorder;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MainProgram"/> class.
+        /// </summary>
         public MainProgram()
         {
-            fileReader = new FileReader();
-            fileRecorder = new FileRecorder();
+            this.fileReader = new FileReader();
+            this.fileRecorder = new FileRecorder();
         }
 
+        /// <summary>
+        /// Start working methods for deserializing, procesing and serializing college data.
+        /// </summary>
         public void WorkProgram()
         {
-            if (fileReader.ReadFile() != null)
+            if (this.fileReader.ReadFile() != null)
             {
-                List<College> colleges = fileReader.ReadFile();
+                List<College> colleges = this.fileReader.ReadFile();
 
-                if (fileRecorder.WriteSpecializationsToFile(DataProcessor.GetSpezializations(colleges)))
+                if (this.fileRecorder.WriteSpecializationsToFile(DataProcessor.GetSpezializations(colleges)))
+                {
                     Console.WriteLine(@"Spezializations are written to a 'file1.txt'.");
+                }
 
-                if (fileRecorder.WriteToFileOrderBySalaryEmployees(DataProcessor.GetEmployeesOrderBySalary(DataProcessor.GetCollegeByMaxStudentsCount(colleges))))
+                if (this.fileRecorder.WriteToFileOrderBySalaryEmployees(DataProcessor.GetEmployeesOrderBySalary(DataProcessor.GetCollegeByMaxStudentsCount(colleges))))
+                {
                     Console.WriteLine(@"Sorted college employees saved to a 'file2.txt'.");
+                }
             }
         }
     }

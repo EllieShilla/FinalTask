@@ -1,13 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FinalTask.Data
+﻿namespace FinalTask.Data
 {
+    using System.Collections.Generic;
+
+    /// <summary>
+    /// Class CollegeList for deserialization from json file.
+    /// </summary>
     public class CollegeList
     {
-        public List<College> colleges { get; set; }
+        /// <summary>
+        /// Gets or sets list of College.
+        /// </summary>
+        public List<College> Colleges { get; set; }
     }
 }
