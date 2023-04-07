@@ -71,6 +71,7 @@
     <Compile Include="Data\Employee.cs" />
     <Compile Include="Data\FileReader.cs" />
     <Compile Include="Data\FileRecorder.cs" />
+    <Compile Include="Data\MainProgram.cs" />
     <Compile Include="Dto\SpezializeDto.cs" />
     <Compile Include="Interfaces\IPerson.cs" />
     <Compile Include="Program.cs" />
