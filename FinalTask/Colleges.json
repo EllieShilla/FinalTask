@@ -1,0 +1,203 @@
+{
+  "colleges": [
+    {
+      "title": "Криворізький медичний коледж",
+      "address": "вул. Медична, 14, м. Кривий Ріг, Дніпропетровська область, 50000",
+      "employees": [
+        {
+          "firstName": "Артур",
+          "secondName": "Дмитренко",
+          "thirdName": "Всеволодович",
+          "position": "вчитель",
+          "salary": "7000"
+        },
+        {
+          "firstName": "Вікторія",
+          "secondName": "Півторак",
+          "thirdName": "Яківна",
+          "position": "психолог",
+          "salary": "8000"
+        },
+        {
+          "firstName": "Давид",
+          "secondName": "Савчук",
+          "thirdName": "Максимович",
+          "position": "вчитель",
+          "salary": "9500"
+        }
+      ],
+      "students": [
+        {
+          "firstName": "Володимир",
+          "secondName": "Антоненко",
+          "thirdName": "Максимович",
+          "group": "група 1",
+          "specialization": "фельдшер"
+        },
+        {
+          "firstName": "Артур",
+          "secondName": "Дмитренко",
+          "thirdName": "Адамович",
+          "group": "група 2",
+          "specialization": "фельдшер на морських і річкових суднах"
+        },
+        {
+          "firstName": "Алла",
+          "secondName": "Луканюк",
+          "thirdName": "Віталіївна",
+          "group": "група 3",
+          "specialization": "акушерка"
+        },
+        {
+          "firstName": "Наташа",
+          "secondName": "Бородуліна",
+          "thirdName": "Володимирівна",
+          "group": "група 4",
+          "specialization": "медсестра"
+        },
+        {
+          "firstName": "Сергій",
+          "secondName": "Харченко",
+          "thirdName": "Генадієвич",
+          "group": "група 1",
+          "specialization": "фельдшер"
+        }
+      ]
+    },
+    {
+      "title": "Київський коледж міського господарства Таврійського національного університету ім. В.І. Вернадського",
+      "address": "Вулиця Джона Маккейна, 33, Київ",
+      "employees": [
+        {
+          "firstName": "Любов",
+          "secondName": "Антоненко",
+          "thirdName": "Ростиславівна",
+          "position": "вчитель",
+          "salary": "8000"
+        },
+        {
+          "firstName": "Світлана",
+          "secondName": "Гаврильчук",
+          "thirdName": "Гаврилівна",
+          "position": "вчитель",
+          "salary": "7500"
+        }
+      ],
+      "students": [
+        {
+          "firstName": "Анна",
+          "secondName": "Кудак",
+          "thirdName": "Олегівна",
+          "group": "група 1",
+          "specialization": "кібербезпека"
+        },
+        {
+          "firstName": "Тарас",
+          "secondName": "Василенко",
+          "thirdName": "Артурович",
+          "group": "група 1",
+          "specialization": "системний аналіз"
+        },
+        {
+          "firstName": "Тамара",
+          "secondName": "Черленюк",
+          "thirdName": "Юріївна",
+          "group": "група 2",
+          "specialization": "менеджмент"
+        },
+        {
+          "firstName": "Тимофій",
+          "secondName": "Харченко",
+          "thirdName": "Антонович",
+          "group": "група 2",
+          "specialization": "менеджмент"
+        }
+      ]
+    },
+    {
+      "title": "Білгород-Дністровський професійний коледж природокористування, будівництва та комп'ютерних технологій",
+      "address": "вул. Першотравнева, 53, м. Білгород-Дністровський, Одеська обл.",
+      "employees": [
+        {
+          "firstName": "Костянтин",
+          "secondName": "Панасюк",
+          "thirdName": "Максимович",
+          "position": "вчитель",
+          "salary": "8300"
+        },
+        {
+          "firstName": "Владислав",
+          "secondName": "Крамарчук",
+          "thirdName": "Генадієвич",
+          "position": "психолог",
+          "salary": "7900"
+        },
+        {
+          "firstName": "Андрій",
+          "secondName": "Клименко",
+          "thirdName": "Тарасович",
+          "position": "методист",
+          "salary": "6500"
+        },
+        {
+          "firstName": "Ілля",
+          "secondName": "Іванович",
+          "thirdName": "Мирославович",
+          "position": "вчитель",
+          "salary": "9200"
+        }
+      ],
+      "students": [
+        {
+          "firstName": "Поліна",
+          "secondName": "Маротчак",
+          "thirdName": "Володимирівна",
+          "group": "група 1",
+          "specialization": "оператор комп'ютерної техніки"
+        },
+        {
+          "firstName": "Григорій",
+          "secondName": "Пономаренко",
+          "thirdName": "Леонідович",
+          "group": "група 1",
+          "specialization": "оператор комп'ютерної техніки"
+        },
+        {
+          "firstName": "Мирослав",
+          "secondName": "Мельник",
+          "thirdName": "Павлович",
+          "group": "група 2",
+          "specialization": "каменяр"
+        },
+        {
+          "firstName": "Анатолій",
+          "secondName": "Павленко",
+          "thirdName": "Гаврилович",
+          "group": "група 3",
+          "specialization": "штукатур"
+        },
+        {
+          "firstName": "Євгеній",
+          "secondName": "Середа",
+          "thirdName": "Артемович",
+          "group": "група 1",
+          "specialization": "оператор комп'ютерної техніки"
+        },
+        {
+          "firstName": "Євгенія",
+          "secondName": "Панадій",
+          "thirdName": "Констянтинівна",
+          "group": "група 4",
+          "specialization": "майстер ландшафтного дизайну"
+        },
+        {
+          "firstName": "Геннадій",
+          "secondName": "Ткачук",
+          "thirdName": "Артемович",
+          "group": "група 2",
+          "specialization": "каменяр"
+        }
+      ]
+    }
+  ]
+}
