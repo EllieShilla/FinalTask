@@ -1,4 +1,8 @@
-﻿namespace FinalTask.Data
+﻿// <copyright file="FileReader.cs" company="MyCompany">
+// Copyright 2023 MyCompany. All rights reserved.
+// </copyright>
+
+namespace FinalTask.Data
 {
     using System;
     using System.Collections.Generic;

@@ -1,4 +1,8 @@
-﻿namespace FinalTask.Dto
+﻿// <copyright file="SpecializeDto.cs" company="MyCompany">
+// Copyright 2023 MyCompany. All rights reserved.
+// </copyright>
+
+namespace FinalTask.Dto
 {
     /// <summary>
     /// Class SpecializeDto for writing data into file.

@@ -1,4 +1,8 @@
-﻿namespace FinalTask
+﻿// <copyright file="Employee.cs" company="MyCompany">
+// Copyright 2023 MyCompany. All rights reserved.
+// </copyright>
+
+namespace FinalTask
 {
     /// <summary>
     /// Model Employee.

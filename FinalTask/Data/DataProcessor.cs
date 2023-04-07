@@ -1,4 +1,8 @@
-﻿namespace FinalTask.Data
+﻿// <copyright file="DataProcessor.cs" company="MyCompany">
+// Copyright 2023 MyCompany. All rights reserved.
+// </copyright>
+
+namespace FinalTask.Data
 {
     using System.Collections.Generic;
     using System.Linq;
