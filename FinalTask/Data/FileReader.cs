@@ -10,13 +10,14 @@ namespace FinalTask.Data
     using System.IO;
     using System.Text;
     using Newtonsoft.Json;
+    using Serilog;
 
     /// <summary>
     /// Class FileReader for get data from file.
     /// </summary>
     public class FileReader
     {
-        private readonly string collegesFilePath = ConfigurationManager.AppSettings["folderCollegesPath"];
+        private readonly string fileCollegesPath = ConfigurationManager.AppSettings["fileCollegesPath"];
 
         /// <summary>
         /// Deserialize data from file.
@@ -26,9 +27,9 @@ namespace FinalTask.Data
         {
             try
             {
-                if (File.Exists(this.collegesFilePath))
+                if (File.Exists(this.fileCollegesPath))
                 {
-                    using (StreamReader streamReader = new StreamReader(this.collegesFilePath, Encoding.UTF8))
+                    using (StreamReader streamReader = new StreamReader(this.fileCollegesPath, Encoding.UTF8))
                     {
                         string json = streamReader.ReadToEnd();
                         if (!string.IsNullOrEmpty(json))
@@ -43,12 +44,13 @@ namespace FinalTask.Data
                 }
                 else
                 {
-                    throw new Exception($"File {this.collegesFilePath} doesn't exist.");
+                    throw new Exception($"File {this.fileCollegesPath} doesn't exist.");
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                Log.Error($"Exception: {ex.Message} \nPlace of occurrence: {ex.TargetSite}");
             }
 
             return null;
